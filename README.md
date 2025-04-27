@@ -3,6 +3,7 @@ False Positive Reduction in Intrusion Detection Systems
 Intrusion Detection Systems (IDS) are essential to securing modern network infrastructures. However, high false positive rates challenge their effectiveness, burdening security teams and masking real threats. This project addresses false positive reduction by employing six machine learning classifiers: Support Vector Machine (SVM), Naïve Bayes, Logistic Regression, Decision Tree, Random Forest, and Artificial Neural Networks (ANN), trained on the CICIDS2017 dataset. A comprehensive preprocessing pipeline was used, including normalization, feature selection, and class balancing with SMOTE. Ensemble-based models, particularly Random Forest and ANN, demonstrated the highest accuracy and significantly reduced false positives. Future work will focus on enhancing real-time capabilities and resilience to evolving cyber threats.
 
 Dataset - https://www.kaggle.com/datasets/chethuhn/network-intrusion-dataset
+
 The CICIDS2017 dataset offers comprehensive labeled traffic, including Denial of Service (DoS), brute force, and web intrusions. Its diversity and real-world characteristics make it ideal for supervised learning.
 Preprocessing
 •	Concatenation: Combined multiple session captures.
